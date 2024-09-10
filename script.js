@@ -1,4 +1,4 @@
-const maxParticipants = 10;
+const maxParticipants = 10:
 const eventCounts = JSON.parse(localStorage.getItem('eventCounts')) || {};
 
 // Reference HTML elements
