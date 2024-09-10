@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px;
+            text-align: center;
+        }
+        select, button {
+            padding: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select an Event</h1>
+    <p>Choose an event from the dropdown list. Each event has a maximum of 10 participants.</p>
+
+    <select id="eventDropdown">
+        <option value="event1">Event 1</option>
+        <option value="event2">Event 2</option>
+        <option value="event3">Event 3</option>
+        <!-- Add more events as needed -->
+    </select>
+    <br>
+    <button id="submitBtn">Submit</button>
+
+    <p id="statusMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
